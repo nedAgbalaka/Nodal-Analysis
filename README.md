@@ -13,7 +13,7 @@ To ensure thermodynamic consistency between the well and the surface, the Python
 
 Using that data, I built a 3-stage centrifugal compressor train in DWSIM using the Peng-Robinson equation of state. The model takes the 50 psig suction gas and boosts it to a final discharge of 2500 psig. I included interstage coolers to knock the gas temperatures back down to 110–120°F between stages, keeping the compressor power loads realistic (balancing out between 212 and 268 kW per stage).
 
-![3-Stage Compressor Train](<Screenshot 2026-09-21 at 10.26.23 PM.png>)
+![3-Stage Compressor Train](<k.png>)
 
 **How to run it:**
 Clone the repo and run `Nodal_Analysis.ipynb` in VS Code or Jupyter. The notebook generates the required `.csv` boundary files, which you can then use to explore the solved thermodynamics in `Gas_Lift_Compressor_Train.dwxmz`.l analysis model to intersect Inflow Performance Relationship and Tubing Performance curves.
