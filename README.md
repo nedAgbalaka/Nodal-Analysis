@@ -1,5 +1,5 @@
 # Nodal-Analysis
-Constructed a computational noda# Gas Lift Nodal Analysis & Surface Compression
+Constructed a computational nodal Gas Lift Nodal Analysis & Surface Compression
 
 This project bridges the gap between wellbore performance and surface facility limits. I built this to model a complete artificial lift system using Python to find the optimal gas lift injection rate, and DWSIM to prove the surface equipment can actually handle the resulting gas volumes. 
 
