@@ -1,7 +1,7 @@
 # Nodal-Analysis
 Constructed a computational noda# Gas Lift Nodal Analysis & Surface Compression
 
-This project bridges the gap between wellbore performance and surface facility limits. I built this to model a complete artificial lift system—using Python to find the optimal gas lift injection rate, and DWSIM to prove the surface equipment can actually handle the resulting gas volumes. 
+This project bridges the gap between wellbore performance and surface facility limits. I built this to model a complete artificial lift system using Python to find the optimal gas lift injection rate, and DWSIM to prove the surface equipment can actually handle the resulting gas volumes. 
 
 **Wellbore Optimization (Python)**
 The first step was writing a nodal analysis script to calculate the intersection of the Vogel IPR and empirical tubing performance curves. The script runs a sensitivity analysis on various gas lift injection rates, allowing us to pinpoint the exact operating point for maximum liquid recovery without choking the well.
